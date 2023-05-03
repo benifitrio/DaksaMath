@@ -1,0 +1,25 @@
+{
+    "name": "MathBrain",
+    "version": "1.0.0",
+    "description": "a very simple progressive web app",
+    "main": "main.js",
+    "scripts": {
+        "start": "node server",
+        "dev": "tailwindcss build ./public/css/main.css -o ./src/tailwind.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.2.3",
+        "express": "^4.17.1",
+        "postcss": "^8.2.4",
+        "serve-static": "^1.14.1",
+        "tailwindcss": "^2.0.2",
+        "tw-elements": "^1.0.0-beta2"
+    }
+}
